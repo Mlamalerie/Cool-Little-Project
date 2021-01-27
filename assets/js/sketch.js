@@ -14,7 +14,6 @@ function setup(){
     for(let i = 1; i < nbBoid ; i++) {
           flock.push(new Boid(i,false));
     }
-   createA('http://p5js.org/', 'this is a link');
      
 }
 

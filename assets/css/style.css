@@ -28,16 +28,24 @@ canvas {
 
 #TextMlamali {
      display: inline-block;
+    color: #ccc;
     font-family: 'Poppins', sans-serif;
 }
-
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
 
 .btn-circle {
-  width: 17px;
-  height: 17px;
-  text-align: center;
- 
-  font-size: 12px;
-  line-height: 1.428571429;
+  width: 15px;
+  height: 15px;
+/*  text-align: center;*/
+  background-color: #f44336;
+/*  font-size: 12px;*/
+  
   border-radius: 15px;
+    border: none;
 }

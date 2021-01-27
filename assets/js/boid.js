@@ -29,7 +29,7 @@ class Boid {
 
     clicked(px, py) {
         let d = dist(px, py, this.position.x, this.position.y);
-        if ((d < 20)&&(this.boss)) {
+        if ((d < 21)&&(this.boss)) {
             window.open("https://www.w3schools.com");
         }
     }
@@ -42,7 +42,7 @@ class Boid {
             noStroke();
             
         }else{
-            taille = 25;
+            taille = 30;
             fill(0, 255, 255);
             noStroke();
         }
