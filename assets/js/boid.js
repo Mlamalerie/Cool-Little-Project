@@ -21,16 +21,23 @@ class Boid {
 
         if (this.boss) {
             this.maxSpeed = 8;
+            
+            if(this.numero == 0){ this.link="https://drive.google.com/open?id=1-rE0_jlFTBBKjXcZa5bCPMbCGOKs6rfH&authuser=saidsalimo%40eisti.eu&usp=drive_fs";}
+            else if (this.numero == 1){ this.link="https://drive.google.com/open?id=1-rE0_jlFTBBKjXcZa5bCPMbCGOKs6rfH&authuser=saidsalimo%40eisti.eu&usp=drive_fs";}
+            
         } else {
             this.maxSpeed = 2.5;
+            this.link="";
         }
+        
     }
 
 
     clicked(px, py) {
         let d = dist(px, py, this.position.x, this.position.y);
         if ((d < 21)&&(this.boss)) {
-            window.open("https://www.w3schools.com");
+            window.open(this.link).focus();
+            flock.splice(this.num,1); // delete after click 
         }
     }
 
