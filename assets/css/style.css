@@ -30,3 +30,14 @@ canvas {
      display: inline-block;
     font-family: 'Poppins', sans-serif;
 }
+
+
+.btn-circle {
+  width: 17px;
+  height: 17px;
+  text-align: center;
+ 
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+}
