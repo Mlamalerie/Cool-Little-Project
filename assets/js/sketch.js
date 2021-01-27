@@ -6,7 +6,7 @@ function setup(){
     noStroke();
     var bail = createCanvas(500,500);
     bail.parent('canvasDiv')
-    bail.size(w*0.75,h*0.85) 
+    bail.size(w*0.75,h*0.851) 
     var nbBoid = 200 ;
 
     console.log((width*height)/100);
