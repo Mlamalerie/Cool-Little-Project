@@ -49,7 +49,7 @@ canvas {
    left: 0;
    bottom: 0;
    width: 100%;
-   
+   border-top: none;
     font-size: 78%;
    color: white;
    text-align: center;
